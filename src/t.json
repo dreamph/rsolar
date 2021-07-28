@@ -1,0 +1,95 @@
+{
+  "status": "SUCCESS",
+  "message": null,
+  "stackTrace": null,
+  "responseCode": 200,
+  "errorCode": null,
+  "data": [
+    {
+      "iso3Code": "THA",
+      "iso2Code": null,
+      "common_name": "Thailand",
+      "flag": "https://mta-assets.themoneytransferapplication.com/flags/Thailand.png",
+      "telephoneCode": null,
+      "capital": null,
+      "currencyCode": null,
+      "currencySymbol": null,
+      "delivery_methods": [
+        {
+          "name": "AIRTIME_TOPUP",
+          "label": "Airtime Topup",
+          "allowNoneMemberToBookDeliveryMethod": false,
+          "originating_currenies": []
+        }
+      ]
+    },
+    {
+      "iso3Code": "GBR",
+      "iso2Code": null,
+      "common_name": "United Kingdom",
+      "flag": "https://mta-assets.themoneytransferapplication.com/flags/United Kingdom.png",
+      "telephoneCode": null,
+      "capital": null,
+      "currencyCode": null,
+      "currencySymbol": null,
+      "delivery_methods": [
+        {
+          "name": "WALLET",
+          "label": "WALLET",
+          "allowNoneMemberToBookDeliveryMethod": false,
+          "originating_currenies": [
+            {
+              "iso3CodeCurrency": "EUR",
+              "iso2CodeCurrency": null,
+              "currency_name": "EUR",
+              "deliveryCurrenies": [
+                {
+                  "iso3_code_currency": "EUR",
+                  "iso2_code_currency": null,
+                  "currency_name": "EUR",
+                  "rate": 0.98,
+                  "rate_expiry": 30,
+                  "rate_expiry_unit": "HOUR",
+                  "chargesList": []
+                }
+              ]
+            },
+            {
+              "iso3CodeCurrency": "GBP",
+              "iso2CodeCurrency": null,
+              "currency_name": "GBP",
+              "deliveryCurrenies": [
+                {
+                  "iso3_code_currency": "GBP",
+                  "iso2_code_currency": null,
+                  "currency_name": "GBP",
+                  "rate": 0.98,
+                  "rate_expiry": 30,
+                  "rate_expiry_unit": "HOUR",
+                  "chargesList": []
+                }
+              ]
+            },
+            {
+              "iso3CodeCurrency": "THB",
+              "iso2CodeCurrency": null,
+              "currency_name": "THB",
+              "deliveryCurrenies": [
+                {
+                  "iso3_code_currency": "GBP",
+                  "iso2_code_currency": null,
+                  "currency_name": "GBP",
+                  "rate": 0,
+                  "rate_expiry": 30,
+                  "rate_expiry_unit": "HOUR",
+                  "chargesList": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+Response headers
