@@ -1,0 +1,13 @@
+application:
+  name: rsolar
+  project: Twitter-Clone
+  cloud_region: aws/eu-west-3
+  publicly_accessible: true
+routers:
+  - name: main
+    custom_domains:
+      - branch: main
+    routes:
+      - application_name: rsolar
+        paths:
+          - /

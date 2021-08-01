@@ -92,4 +92,20 @@
     }
   ]
 }
-Response headers
+
+
+{
+  "destinationCountry": "GBR",
+  "transactionType": "WALLET",
+  "paymentType": "E_WALLET",
+  "chargeCategory": "WALLET_MONEY_LOAD_CASH",
+  "principalAmount": 100,
+  "principalAmountCurrency": "GBP",
+  "deriveAmount": 0,
+  "deriveAmountCurrency": "GBP",
+  "inverseCalculation": false,
+  "tradeOriginatingCountry": "GBR",
+  "conversion": true,
+  "promoCode": "officia nis",
+  "mobileOperator": "Excepteur aliquip"
+}
