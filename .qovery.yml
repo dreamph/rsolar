@@ -1,6 +1,6 @@
 application:
   name: rsolar
-  project: Twitter-Clone
+  project: rsolar
   cloud_region: aws/eu-west-3
   publicly_accessible: true
 routers:
